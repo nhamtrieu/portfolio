@@ -1,0 +1,94 @@
+{
+  "Meta": {
+    "title": "Nham Trieu — Software Engineer",
+    "description": "Software engineer tại TideSquare/BTMS và Hanja Hero — UI đặt chỗ, Quarkus API và nền tảng học TOPIK."
+  },
+  "Nav": {
+    "work": "Dự án",
+    "experience": "Kinh nghiệm",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "resume": "CV"
+  },
+  "Hero": {
+    "name": "Nham",
+    "headline": "Software engineer trên UI và API sản phẩm — từ booking travel đến nền tảng học tập.",
+    "supporting": "Tại TideSquare mình ship booking travel trên React và Quarkus/Java — từ UI sản phẩm đến API và logic nghiệp vụ.",
+    "ctaWork": "Xem dự án",
+    "ctaContact": "Liên hệ"
+  },
+  "Work": {
+    "title": "Dự án nổi bật",
+    "subtitle": "Việc production cùng side project mở rộng stack.",
+    "viewCase": "Sản phẩm",
+    "viewLive": "Xem live",
+    "viewSource": "Source",
+    "items": {
+      "btms": {
+        "title": "BTMS — Nền tảng đặt chỗ công tác",
+        "role": "Software Engineer · TideSquare",
+        "summary": "Làm xuyên suốt sản phẩm booking: React (Vite) cho luồng air/hotel, primitive design system và mobile; Quarkus (Java 21) cho agency login/khóa tài khoản, thẻ thanh toán, company/workspace, passport/customer và chat agent travel; Java/MyBatis legacy cho settlement/invoice khách sạn và chuyển view HBS → React.",
+        "tags": ["React", "Quarkus", "Java 21", "Hibernate", "MyBatis", "MySQL"]
+      },
+      "hanjaHero": {
+        "title": "Hanja Hero — Nền tảng học tiếng Hàn & TOPIK",
+        "role": "Software Engineer · NAVIX Vietnam",
+        "summary": "Nền tảng web học tiếng Hàn và luyện TOPIK (hanjahero.com): client React/Vite với bài test và giải thích đáp án bằng AI ngay trong câu hỏi; backend FastAPI cho explain-answer, chấm speaking/shadowing và luồng hội thoại. Ship tính năng explain-answer xuyên suốt — thiết kế API, service/prompt và tích hợp UI Question.",
+        "tags": ["React", "FastAPI", "Python", "TypeScript", "TOPIK", "AI"]
+      },
+      "dbViewer": {
+        "title": "DbViewer — MySQL desktop client",
+        "role": "Creator · Vibe coding",
+        "summary": "MySQL desktop client đa nền tảng (Tauri 2 + React + Rust), build bằng vibe coding — lặp nhanh với AI từ product plan đến MVP: kết nối lưu mật khẩu OS, object browser, SQL editor + history, data grid ảo hóa, sửa có transaction, import/export, global search và ER diagram.",
+        "tags": ["Tauri 2", "Rust", "React", "TypeScript", "MySQL"]
+      },
+      "nhamBlog": {
+        "title": "Nham Blog — nền tảng xuất bản MDX",
+        "role": "Full-stack · Side project",
+        "summary": "Blog + CMS cá nhân: Next.js App Router, PostgreSQL/TypeORM, editor MDX, role admin/writer, đăng nhập reader (credentials + Google), comment/thông báo, media Cloudinary, SEO (sitemap/RSS). Deploy PM2 + Cloudflare Tunnel, CI qua Tailscale.",
+        "tags": ["Next.js", "TypeORM", "PostgreSQL", "NextAuth", "MDX"]
+      }
+    }
+  },
+  "Experience": {
+    "title": "Kinh nghiệm",
+    "subtitle": "Nơi ship production hàng ngày.",
+    "items": {
+      "current": {
+        "role": "Software Engineer (FE + BE)",
+        "company": "TideSquare (BTMS)",
+        "period": "Hiện tại",
+        "points": [
+          "Frontend (btms-front): hotel và overseas air — search, chi tiết đặt chỗ, payment UI, validate hộ chiếu/giấy tờ, mobile, và component design system bám Figma.",
+          "API v2 (Quarkus): agency auth có lockout/audit, CRUD thẻ thanh toán, API company/workspace/manager, handler passport & travel overseas, multi-agent chat air/hotel (OpenAI), gửi email async bằng virtual thread.",
+          "Legacy btms (Java/MyBatis/HBS): mapper bookingHotel & luồng settlement/invoice agency, IdentificationService reset password, và chuyển controller từ Handlebars sang React view."
+        ]
+      }
+    }
+  },
+  "About": {
+    "title": "Giới thiệu",
+    "body": "Mình là Nham Trieu (Lucas), tốt nghiệp chuyên ngành Kỹ thuật máy tính — Đại học Bách khoa Hà Nội — software engineer làm được xuyên suốt stack sản phẩm: UI React, API Quarkus/Java, và service Java/MyBatis legacy. Trên BTMS tại TideSquare mình own luồng đặt chỗ từ component bám Figma đến payment, validate hộ chiếu và logic settlement agency. Làm tốt nhất khi cấu trúc rõ, trạng thái tương tác đủ, và team ship ổn định.",
+    "skillsTitle": "Trọng tâm",
+    "skills": [
+      "React / Next.js",
+      "Quarkus / Java",
+      "Design systems",
+      "Hibernate / MyBatis",
+      "MySQL",
+      "TypeScript",
+      "Tauri / Rust"
+    ]
+  },
+  "Contact": {
+    "title": "Liên hệ",
+    "subtitle": "Mở với team sản phẩm coi trọng chất lượng UI và API — và cộng tác viên làm developer tools.",
+    "emailLabel": "Email",
+    "email": "trieunham2002@gmail.com",
+    "social": "Elsewhere"
+  },
+  "Footer": {
+    "built": "Xây bằng Next.js · Host trên Cloudflare",
+    "rights": "© {year} Nham Trieu"
+  }
+}

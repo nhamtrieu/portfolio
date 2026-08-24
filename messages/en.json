@@ -1,0 +1,120 @@
+{
+  "Meta": {
+    "title": "Nham Trieu — Software Engineer",
+    "description": "Software engineer at TideSquare/BTMS and Hanja Hero — booking UI, Quarkus APIs, and TOPIK learning platform."
+  },
+  "Nav": {
+    "work": "Work",
+    "experience": "Experience",
+    "about": "About",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "Hero": {
+    "name": "Nham",
+    "headline": "Software engineer across product UI and APIs — from travel booking to learning platforms.",
+    "supporting": "At TideSquare I ship travel booking on React and Quarkus/Java. I build product UI, APIs, and the glue between design and production.",
+    "ctaWork": "View work",
+    "ctaContact": "Get in touch"
+  },
+  "Work": {
+    "title": "Selected work",
+    "subtitle": "Production product work plus personal projects that stretch the stack.",
+    "viewCase": "Product work",
+    "viewLive": "Live",
+    "viewSource": "Source",
+    "items": {
+      "btms": {
+        "title": "BTMS — Business travel platform",
+        "role": "Software Engineer · TideSquare",
+        "summary": "End-to-end on the booking product: React (Vite) for air/hotel flows, design-system primitives, and mobile layouts; Quarkus (Java 21) APIs for agency login/lockout, payment cards, company/workspace, passport/customer, and travel AI chat agents; legacy Java/MyBatis services and mappers for hotel settlement, invoices, and HBS→React view cutovers.",
+        "tags": [
+          "React",
+          "Quarkus",
+          "Java 21",
+          "Hibernate",
+          "MyBatis",
+          "MySQL"
+        ]
+      },
+      "hanjaHero": {
+        "title": "Hanja Hero — Korean & TOPIK learning platform",
+        "role": "Software Engineer · NAVIX Vietnam",
+        "summary": "Web platform for Korean study and TOPIK prep (hanjahero.com): React/Vite client with practice tests and in-question AI explain-answer; FastAPI backend for question explanation, speaking/shadowing scoring, and conversation flows. Shipped explain-answer end-to-end — API design, prompt/service layer, and Question UI integration.",
+        "tags": [
+          "React",
+          "FastAPI",
+          "Python",
+          "TypeScript",
+          "TOPIK",
+          "AI"
+        ]
+      },
+      "dbViewer": {
+        "title": "DbViewer — MySQL desktop client",
+        "role": "Creator · Vibe coding",
+        "summary": "Cross-platform MySQL client (Tauri 2 + React + Rust), built with vibe coding — AI-assisted iteration from product plan to MVP: OS-secured connections, object browser, SQL editor with history, virtualized grid, transactional edits, import/export, global search, and ER diagrams.",
+        "tags": [
+          "Tauri 2",
+          "Rust",
+          "React",
+          "TypeScript",
+          "MySQL"
+        ]
+      },
+      "nhamBlog": {
+        "title": "Nham Blog — MDX publishing platform",
+        "role": "Full-stack · Side project",
+        "summary": "Personal blog and CMS: Next.js App Router, PostgreSQL/TypeORM, MDX editor, admin + writer roles, reader auth (credentials + Google), comments/notifications, Cloudinary media, SEO (sitemap/RSS). Deployed via PM2 and Cloudflare Tunnel with Tailscale-backed CI deploy.",
+        "tags": [
+          "Next.js",
+          "TypeORM",
+          "PostgreSQL",
+          "NextAuth",
+          "MDX"
+        ]
+      }
+    }
+  },
+  "Experience": {
+    "title": "Experience",
+    "subtitle": "Where the production shipping happens.",
+    "items": {
+      "current": {
+        "role": "Software Engineer (FE + BE)",
+        "company": "TideSquare (BTMS)",
+        "period": "Present",
+        "points": [
+          "Frontend: hotel and overseas air booking in btms-front — search, reservation, payment UI, passport/document validation, mobile, and shared design-system components against Figma.",
+          "API v2 (Quarkus): agency auth with lockout/audit, payment-card CRUD, company/workspace/manager APIs, passport & overseas travel handlers, multi-agent air/hotel chat (OpenAI), async email on virtual threads.",
+          "Legacy btms (Java/MyBatis/HBS): bookingHotel mappers & settlement/invoice agency flows, IdentificationService password-reset paths, and controller cutovers from Handlebars to React views."
+        ]
+      }
+    }
+  },
+  "About": {
+    "title": "About",
+    "body": "I'm Nham Trieu (Lucas), a Computer Engineering graduate from Hanoi University of Science and Technology (HUST) — a software engineer who ships across the full product stack: React UI, Quarkus/Java APIs, and legacy Java/MyBatis services. On BTMS at TideSquare I own booking flows end to end — from Figma-aligned components to payment, passport validation, and agency settlement logic. I work best when structure is clear, interaction states are complete, and the team can ship steadily.",
+    "skillsTitle": "Focus",
+    "skills": [
+      "React / Next.js",
+      "Quarkus / Java",
+      "Design systems",
+      "Hibernate / MyBatis",
+      "MySQL",
+      "TypeScript",
+      "Tauri / Rust"
+    ]
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Open to product teams that care about UI and API quality — and collaborators on developer tools.",
+    "emailLabel": "Email",
+    "email": "trieunham2002@gmail.com",
+    "social": "Elsewhere"
+  },
+  "Footer": {
+    "built": "Built with Next.js · Hosted on Cloudflare",
+    "rights": "© {year} Nham Trieu"
+  }
+}
