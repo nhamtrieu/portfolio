@@ -4,7 +4,8 @@ export const SITE = {
   email: "trieunham2002@gmail.com",
   github: "https://github.com/nhamtrieu",
   linkedin: "https://www.linkedin.com/in/nhamtrieu2002/",
-  resumePath: "/resume.pdf",
+  resumePath:
+    "https://drive.google.com/file/d/1ZBRwFfz48lO8OUDKaSiL9eEpEVmQx-3T/view?usp=drive_link",
 } as const;
 
 export const WORK_ORDER = ["btms", "hanjaHero", "dbViewer", "nhamBlog"] as const;
