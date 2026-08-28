@@ -54,6 +54,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
+      data-scroll-behavior="smooth"
       className={`${syne.variable} ${sourceSerif.variable} h-full`}
     >
       <body className="site-shell min-h-full flex flex-col antialiased">

@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Nham Trieu — Software Engineer",
-    "description": "Software engineer tại TideSquare/BTMS và Hanja Hero — UI đặt chỗ, Quarkus API và nền tảng học TOPIK."
+    "title": "Triệu Tuyên Nhâm — Software Engineer",
+    "description": "Software engineer full-stack — React, TypeScript, Node.js, Java và Python. Portfolio dự án web và side project."
   },
   "Nav": {
     "work": "Dự án",
@@ -11,9 +11,16 @@
     "resume": "CV"
   },
   "Hero": {
-    "name": "Nham",
-    "headline": "Software engineer trên UI và API sản phẩm — từ booking travel đến nền tảng học tập.",
-    "supporting": "Tại TideSquare mình ship booking travel trên React và Quarkus/Java — từ UI sản phẩm đến API và logic nghiệp vụ.",
+    "eyebrow": "Software Engineer · Full-stack",
+    "headline": "Xây sản phẩm web end-to-end — từ giao diện đến API.",
+    "supporting": "Full-stack engineer với React, TypeScript và backend Java, Node.js hoặc Python. Ưu tiên trải nghiệm người dùng rõ ràng, API ổn định và code dễ bảo trì.",
+    "panelTitle": "Trọng tâm",
+    "highlights": [
+      "UI React/Next.js và design system bám Figma",
+      "API Java/Quarkus, Node.js và Python/FastAPI",
+      "Side project: desktop tools (Tauri) và nền tảng web"
+    ],
+    "stack": ["React", "TypeScript", "Node.js", "Java", "Python", "PostgreSQL"],
     "ctaWork": "Xem dự án",
     "ctaContact": "Liên hệ"
   },
@@ -34,7 +41,7 @@
         "title": "Hanja Hero — Nền tảng học tiếng Hàn & TOPIK",
         "role": "Software Engineer · NAVIX Vietnam",
         "summary": "Nền tảng web học tiếng Hàn và luyện TOPIK (hanjahero.com): client React/Vite với bài test và giải thích đáp án bằng AI ngay trong câu hỏi; backend FastAPI cho explain-answer, chấm speaking/shadowing và luồng hội thoại. Ship tính năng explain-answer xuyên suốt — thiết kế API, service/prompt và tích hợp UI Question.",
-        "tags": ["React", "FastAPI", "Python", "TypeScript", "TOPIK", "AI"]
+        "tags": ["React", "FastAPI", "Python", "PostgreSQL", "TypeScript", "TOPIK", "AI"]
       },
       "dbViewer": {
         "title": "DbViewer — MySQL desktop client",
@@ -68,7 +75,7 @@
   },
   "About": {
     "title": "Giới thiệu",
-    "body": "Mình là Nham Trieu (Lucas), tốt nghiệp chuyên ngành Kỹ thuật máy tính — Đại học Bách khoa Hà Nội — software engineer làm được xuyên suốt stack sản phẩm: UI React, API Quarkus/Java, và service Java/MyBatis legacy. Trên BTMS tại TideSquare mình own luồng đặt chỗ từ component bám Figma đến payment, validate hộ chiếu và logic settlement agency. Làm tốt nhất khi cấu trúc rõ, trạng thái tương tác đủ, và team ship ổn định.",
+    "body": "Mình là Triệu Tuyên Nhâm, tốt nghiệp Kỹ thuật máy tính tại Đại học Bách khoa Hà Nội. Là software engineer full-stack, mình làm từ giao diện React/Next.js đến API với Java, Node.js hoặc Python — kể cả hệ thống legacy cần bảo trì lâu dài. Quan tâm UI bám design, API rõ ràng và code dễ mở rộng.",
     "skillsTitle": "Trọng tâm",
     "skills": [
       "React / Next.js",
@@ -77,6 +84,7 @@
       "Hibernate / MyBatis",
       "MySQL",
       "TypeScript",
+      "Node.js",
       "Tauri / Rust"
     ]
   },
@@ -89,6 +97,6 @@
   },
   "Footer": {
     "built": "Xây bằng Next.js · Host trên Cloudflare",
-    "rights": "© {year} Nham Trieu"
+    "rights": "© {year} Triệu Tuyên Nhâm"
   }
 }

@@ -1,6 +1,6 @@
 export const SITE = {
-  name: "Nham",
-  fullName: "Nham Trieu",
+  name: "Nhâm",
+  fullName: "Triệu Tuyên Nhâm",
   email: "trieunham2002@gmail.com",
   github: "https://github.com/nhamtrieu",
   linkedin: "https://www.linkedin.com/in/nhamtrieu2002/",

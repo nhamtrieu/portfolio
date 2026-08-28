@@ -11,7 +11,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 const SECTION_IDS = ["work", "experience", "about", "contact"] as const;
 
 const LINKS = SECTION_IDS.map((key) => ({
-  href: `/#${key}`,
+  href: `#${key}`,
   key,
 }));
 

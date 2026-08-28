@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Nham Trieu — Software Engineer",
-    "description": "Software engineer at TideSquare/BTMS and Hanja Hero — booking UI, Quarkus APIs, and TOPIK learning platform."
+    "title": "Tuyen Nham Trieu — Software Engineer",
+    "description": "Full-stack software engineer — React, TypeScript, Node.js, Java, and Python. Portfolio of web products and side projects."
   },
   "Nav": {
     "work": "Work",
@@ -11,9 +11,16 @@
     "resume": "Resume"
   },
   "Hero": {
-    "name": "Nham",
-    "headline": "Software engineer across product UI and APIs — from travel booking to learning platforms.",
-    "supporting": "At TideSquare I ship travel booking on React and Quarkus/Java. I build product UI, APIs, and the glue between design and production.",
+    "eyebrow": "Software Engineer · Full-stack",
+    "headline": "Building web products end to end — from interface to API.",
+    "supporting": "Full-stack engineer working with React, TypeScript, and Java, Node.js, or Python backends. I focus on clear UX, reliable APIs, and maintainable code.",
+    "panelTitle": "Focus",
+    "highlights": [
+      "React/Next.js UI and Figma-aligned design systems",
+      "Quarkus/Java, Node.js, and Python/FastAPI backends",
+      "Side projects: desktop tools (Tauri) and web platforms"
+    ],
+    "stack": ["React", "TypeScript", "Node.js", "Java", "Python", "PostgreSQL"],
     "ctaWork": "View work",
     "ctaContact": "Get in touch"
   },
@@ -45,6 +52,7 @@
           "React",
           "FastAPI",
           "Python",
+          "PostgreSQL",
           "TypeScript",
           "TOPIK",
           "AI"
@@ -94,7 +102,7 @@
   },
   "About": {
     "title": "About",
-    "body": "I'm Nham Trieu (Lucas), a Computer Engineering graduate from Hanoi University of Science and Technology (HUST) — a software engineer who ships across the full product stack: React UI, Quarkus/Java APIs, and legacy Java/MyBatis services. On BTMS at TideSquare I own booking flows end to end — from Figma-aligned components to payment, passport validation, and agency settlement logic. I work best when structure is clear, interaction states are complete, and the team can ship steadily.",
+    "body": "I'm Tuyen Nham Trieu, a Computer Engineering graduate from Hanoi University of Science and Technology (HUST). As a full-stack software engineer, I work from React/Next.js interfaces to backends in Java, Node.js, or Python — including legacy systems that need steady maintenance. I care about design-aligned UI, clear APIs, and code that's easy to extend.",
     "skillsTitle": "Focus",
     "skills": [
       "React / Next.js",
@@ -103,6 +111,7 @@
       "Hibernate / MyBatis",
       "MySQL",
       "TypeScript",
+      "Node.js",
       "Tauri / Rust"
     ]
   },
@@ -115,6 +124,6 @@
   },
   "Footer": {
     "built": "Built with Next.js · Hosted on Cloudflare",
-    "rights": "© {year} Nham Trieu"
+    "rights": "© {year} Tuyen Nham Trieu"
   }
 }
